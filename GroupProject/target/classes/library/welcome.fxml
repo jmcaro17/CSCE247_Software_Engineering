@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="293.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library.WelcomeController">
+   <children>
+      <Button id="welcomeLoginButton" layoutX="72.0" layoutY="233.0" mnemonicParsing="false" onMouseClicked="#switchToLogin" prefHeight="46.0" prefWidth="149.0" styleClass="buttontop" text="Log In" />
+      <Button id="welcomeSignupButton" layoutX="72.0" layoutY="306.0" mnemonicParsing="false" onMouseClicked="#switchToSignup" prefHeight="46.0" prefWidth="149.0" styleClass="buttonbottom" text="Sign Up" />
+      <Label layoutX="63.0" layoutY="33.0" prefHeight="59.0" prefWidth="195.0" text="Welcome!" textAlignment="CENTER" textFill="#6450c8">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+   </children>
+   <stylesheets>
+      <URL value="@styles.css" />
+   </stylesheets>
+</Pane>
